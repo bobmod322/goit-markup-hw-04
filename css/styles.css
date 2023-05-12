@@ -276,8 +276,7 @@ button {
 }
 
 .team-list-prof {margin-bottom: 8px;}
-.team-text-icon {
-}
+.team-text-icon {padding-top: 32px;padding-bottom: 32px;}
 
 .team-head {
   font-weight: 700;
