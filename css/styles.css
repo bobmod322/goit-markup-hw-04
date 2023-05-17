@@ -101,13 +101,18 @@ button {
   color: var(--color-main);
   padding-top: 24px;
   padding-bottom: 24px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-link:hover,
 .list-link:focus {
   color: #404bbf;
 }
 
-.active-link {position: relative;}
+.active-link {color: #404bbf;
+  position: relative;
+}
 .active-link::after {
   content: "";
   display: block;
