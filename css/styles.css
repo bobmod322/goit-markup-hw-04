@@ -612,3 +612,10 @@ overflow: hidden;}
     visibility: hidden;
     pointer-events: none;
   }
+/* button modal color */
+  .modal-icons-close {fill: #2E2F42;}
+  .button-close-modal:hover,
+  .button-close-modal:focus {background-color: #404BBF;}
+  .button-close-modal:hover .modal-icons-close,
+  .button-close-modal:focus .modal-icons-close{fill: #FFFFFF;}
+  /* button modal color close */
